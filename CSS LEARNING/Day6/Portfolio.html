@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <p id="navtag">Welcome to my Portfolio</p>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#certification">Certification</a>  
+            <a href="#skill">Skills</a>  
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <video src="/HTML LEARNING/image/video.mp4" controls muted autoplay loop></video>
+
+    <section class="about-section">
+        <h3 class="title" id="about">About Me</h3>
+
+        <div class="about-container">
+            <img src="/HTML LEARNING/image/photo.jpg" alt="Profile Photo" id="myphoto">
+
+            <p class="aboutme">
+                I am a Computer Science and Engineering student with a strong passion 
+                for technology, programming, MERN Stack, and Cyber Security. 
+                I am continuously learning and improving my skills in modern web 
+                development and security engineering.
+            </p>
+        </div>
+    </section>
+
+    <section id="certification">
+        <h3 class="title">Certifications</h3>
+        <ul class="cert-list">
+            <li>Practical Cyber Security - NPTEL</li>
+            <li>Networking Fundamentals - Cisco Academy</li>
+            <li>Cyber Attack - Simplilearn</li>
+        </ul>
+    </section>
+
+    <section id="skill">
+        <h3 class="title">Skills</h3>
+
+        <table id="skills">
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                    <th>Platform</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Udemy</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Coursera</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>edX</td>
+                </tr>
+                <tr>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td>FreeCodeCamp</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h3 class="title">Contact</h3>
+
+        <form class="contact-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" class="in">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="in">
+
+            <label for="message">Message:</label>
+            <textarea id="message" class="in"></textarea>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
